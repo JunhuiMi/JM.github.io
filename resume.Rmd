@@ -6,13 +6,19 @@ output:
     toc_float: true
 ---
 
+### Junhui Mi
+
+Tel: 929-920-8241
+
+Email: jm4998@cumc.columbia.edu
+
 ### Education Background
 
-**Columbia University, Mailman School of Public Health** (09/2019-present)
+**Columbia University, Mailman School of Public Health** [09/2019-present]{style="float:right"}
 
 Biostatistics, MS in Theory and Methods
 
-**Beijing Normal University, School of Biology** (09/2015-06/2019)
+**Beijing Normal University, School of Biology** [09/2015-06/2019]{style="float:right"}
 
 Bachelor of Science in Bioscience 
 
@@ -26,88 +32,86 @@ Bachelor of Science in Statistics (Double Major)
 
 ### Internship and Work Experience
 
-**Peking University Cancer Hospital, Cancer bioinformatics Center, Intern** (07/2018-09/2018)
+**Peking University Cancer Hospital, Cancer bioinformatics Center, Intern** [07/2018-09/2018]{style="float:right"}
 
 Joined Dr. Jianmin Wu's group and worked on gastric cancer.
 
 Responsibility: Consulting related articles on NCBI, merging the database attached and clinical data from Peking University Cancer Hospital, and finalizing database standards; using 4 known gastric cancer subtypes
 to build multinomial classifier trained on gene expression data sets from clinical trials; reading articles and preparing presentations on flow sorting technology and third generation sequencing.
 
-**Beijing Municipal Center for Disease Prevention and Control, Department of Immunization, Intern** (11/2017-02/2018)
+**Beijing Municipal Center for Disease Prevention and Control, Department of Immunization, Intern** [11/2017-02/2018]{style="float:right"}
 
 Participated in the project to investigate the state and medication of hepatitis B among Beijing residents in order to design a new plan for the drugs and treatment of hepatitis B.
 
 Responsibility: Calculating sample size according to project design; establishing database, collecting and monitoring daily data of epidemiological investigation, biochemistry test, routine blood test, five items of hepatitis B and elastosonography, control the whole quality of the data and solve problems about the data; doing statistical analysis and making graphs with R.
 
-**Funde Property & Casualty Insurance Co., Ltd., Department of Marketing, Intern** (07/2017-08/2017)
+**Funde Property & Casualty Insurance Co., Ltd., Department of Marketing, Intern** [07/2017-08/2017]{style="float:right"}
 
 Responsibility: Making daily, weekly, monthly reports of corporate performance, payment of claims and performance ranking of each branch company; managing database.
 
 
 **Volunteer work**
 
-Expostor of the Summer Palace (10/2015-07/2016)
+Expostor of the Summer Palace [10/2015-07/2016]{style="float:right"}
 
-Work at retired staff service center of People's Daily (04/2016-07/2018)
+Work at retired staff service center of People's Daily [04/2016-07/2018]{style="float:right"}
 
-Expostor of Specimen Museum in Beijing Normal University (10/2016-12/2018)
+Expostor of Specimen Museum in Beijing Normal University [10/2016-12/2018]{style="float:right"}
 
 ### Research Experience
 
 **Project: The Application of Cox Model in Medical Statistics**
 
-Supervisor: Prof. Xingwei Tong (12/2018-05/2019)
+Supervisor: Prof. Xingwei Tong [12/2018-05/2019]{style="float:right"}
 
 To review Cox model and its application in medical statistics, and to explore the risk factors of one-year mortality in patients with acute cerebral infarction. I found that brainstem infarction, pulmonary infection and cerebral hernia can increase the risk of death within one year through follow-up experiment of 418 patients for one year.
 
 **Project: Normalization analysis of cucumber transcriptome data**
 
-Supervisor: Prof. Kui Lin (11/2018-05/2019)
+Supervisor: Prof. Kui Lin [11/2018-05/2019]{style="float:right"}
 
 To compare the results of 10 cucumber tissues, more than 10,000 complete sequenced transcripts without normalization, with quantile normalization and with smooth quantile normalization. Regularizing RNA-seq transcriptome data from different tissues of cucumber to remove system bias and technical differences in high-throughput data.
 
 **Project: Comparative analysis of genomes between two species of Shigella: S. flexneri and S. sonnei**
 
-Supervisor: Prof. Kui Lin (11/2017-05/2018)
+Supervisor: Prof. Kui Lin [11/2017-05/2018]{style="float:right"}
 
 To Compare and analyze the similarities and differences of two species of Shigella: S. flexneri and S. sonnei at the whole genome level and find out their high specific, conserved sequences.
 
 **IGEM Competition: The establishment of a highly efficient, whole-cell biocatalyst system**
 
-Supervisor: Prof. Anru Lou and Prof. Xudong Zhu (11/2016-10/2017)
+Supervisor: Prof. Anru Lou and Prof. Xudong Zhu [11/2016-10/2017]{style="float:right"}
 
 To improve the yeast surface display system by displaying microtubules and flagellar filaments onto the yeast surface and create an extracellular scaffold for enzymes to interact with each other.
 
 **Undergraduate Research Program: The effect of Alix on the migration of tumor cells**
 
-Supervisor: Prof. Haiyun Ren and Prof. Wei Zhang (04/2017-10/2017)
+Supervisor: Prof. Haiyun Ren and Prof. Wei Zhang [04/2017-10/2017]{style="float:right"}
 
 To examine the effect of over-expression and knockout of Alix in tumor cells, and figure out the effect of Alix on the migration ability of the tumor cells.
 
 ### Extracurricular Activities
 
-**Social Survey: Survey on the overall state of ecological civilization consciousness of Beijing residents, First Prize** (12/2017-02/2018)
+**Social Survey: Survey on the overall state of ecological civilization consciousness of Beijing residents, First Prize** [12/2017-02/2018]{style="float:right"}
 
 Read documents and set questions for online questionnaire; Applied online questionnaire survey to collect information and did data analysis.
 
-**Social Survey: Survey on the inheritance and development of Chinese new year culture, First Prize** (12/2016-02/2017)
+**Social Survey: Survey on the inheritance and development of Chinese new year culture, First Prize** [12/2016-02/2017]{style="float:right"}
 
 Designed online questionnaire, collected information, did data analysis and wrote reports.
 
-Class Commissary in charge of Organization (10/2015-06/2019)
+Class Commissary in charge of Organization [10/2015-06/2019]{style="float:right"}
 
-Mentoring program to help students with learning difficulties (10/2017-07/2018)
+Mentoring program to help students with learning difficulties [10/2017-07/2018]{style="float:right"}
 
 ### Awards
 
-University Scholarship for academic merit (2016, 2017, 2018)
+University Scholarship for academic merit [2016, 2017, 2018]{style="float:right"}
 
-The Scholarship for Excellent Student of Competition Performance (2018)
+The Scholarship for Excellent Student of Competition Performance [2018]{style="float:right"}
 
-First Prize in Beijing College Biology Academic Competition (2018)
+First Prize in Beijing College Biology Academic Competition [2018]{style="float:right"}
 
-Bronze Medal in International Genetically Engineered Machine Competition (2017)
+Second Prize in National English Contest for College Students [2017]{style="float:right"}
 
-Second Prize in National English Contest for College Students  (2017)
-
-Excellent Students Awards (2017)
+Excellent Students Awards [2017]{style="float:right"}

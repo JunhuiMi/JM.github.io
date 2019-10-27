@@ -10,7 +10,7 @@ output:
   
 I am **Junhui Mi**, a first-year master student of **Biostatistics** from Columbia University, Mailman School of Public Health. I love cooking, travelling, going to the gym and learning **data science**!
   
-This is me!
+This is me in Thailand!
 
 ![](me.jpg)
   
