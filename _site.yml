@@ -8,7 +8,7 @@ navbar:
     - icon: fa-envelope fa-lg
       href: mailto:<jm4998@cumc.columbia.edu>
     - icon: fa-github fa-lg
-      href: http://github.com/JM/
+      href: http://github.com/JunhuiMi/
 output:
   html_document:
     theme: flatly
