@@ -27,7 +27,7 @@ ny_noaa_clean = ny_noaa %>%
   sample_n(10000)
 ```
 
-Column {data-width=500}
+Column {data-width=600}
 -----------------------------------------------------------------------
 
 ### The distribution of precipitation (0<prcp<100mm) through months
@@ -41,6 +41,9 @@ ny_noaa_clean %>%
          yaxis = list(title = "Precipitation(mm)"))
 ```
 
+Column {data-width=400}
+-----------------------------------------------------------------------
+
 ### The mean minimum and maximum temperature through years
 
 ```{r}
@@ -50,20 +53,17 @@ maxmin_ggplot = ny_noaa_clean %>%
           mean_tmin = mean(tmin, na.rm = TRUE)) %>%
   pivot_longer(
     mean_tmax:mean_tmin,
-    names_to = "maxmin",
-    names_prefix = "mean_",
+    names_to = "max_min",
+    names_prefix = "mean_t",
     values_to = "t"
   ) %>%
-  ggplot(aes(x = year, y = t, group = maxmin, color = maxmin)) + 
+  ggplot(aes(x = year, y = t, group = max_min, color = max_min)) + 
     geom_point() + geom_line() + 
   theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
   labs(x = "Year", y = "Temperature")
 
 ggplotly(maxmin_ggplot)
 ```
-
-Column {data-width=500}
------------------------------------------------------------------------
 
 ### The minimum and maximum temperature through months
 
