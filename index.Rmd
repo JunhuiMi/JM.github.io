@@ -1,0 +1,25 @@
+---
+title: "Personal Website of Junhui Mi"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+### Introduction  
+  
+I am **Junhui Mi**, a first-year master student of **Biostatistics** from Columbia University, Mailman School of Public Health. I love cooking, travelling, going to the gym and learning **data science**!
+  
+This is me!
+
+![](me.jpg)
+  
+If you would like to learn more about me, have a look at my resume [here](resume.html)
+  
+### About My School
+  
+This is the logo of my school. I enjoy studying here a lot!
+
+![](mailman.jpg)
+  
+Here is a [link](https://www.mailman.columbia.edu) of my school.
