@@ -1,5 +1,5 @@
 ---
-title: "Dashboard"
+title: "Dashboard of Plots using NY NOAA dataset"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
@@ -13,7 +13,6 @@ library(viridis)
 library(p8105.datasets)
 library(plotly)
 ```
-
 
 ```{r, tidy_data}
 data(ny_noaa) 
@@ -32,6 +31,7 @@ Column {data-width=500}
 -----------------------------------------------------------------------
 
 ### The distribution of precipitation (0<prcp<100mm) through months
+
 ```{r}
 ny_noaa_clean %>%
   filter(prcp > 0 & prcp < 100) %>%
@@ -41,8 +41,8 @@ ny_noaa_clean %>%
          yaxis = list(title = "Precipitation(mm)"))
 ```
 
-
 ### The mean minimum and maximum temperature through years
+
 ```{r}
 maxmin_ggplot = ny_noaa_clean %>%
   group_by(year) %>%
@@ -60,13 +60,13 @@ maxmin_ggplot = ny_noaa_clean %>%
   labs(x = "Year", y = "Temperature")
 
 ggplotly(maxmin_ggplot)
-  
 ```
 
 Column {data-width=500}
 -----------------------------------------------------------------------
 
 ### The minimum and maximum temperature through months
+
 ```{r}
 ny_noaa_clean %>%
   filter(!is.na(tmax) & !is.na(tmin)) %>%
@@ -75,3 +75,4 @@ ny_noaa_clean %>%
   layout(xaxis = list(title = "Minimum Temperature(C)"),
          yaxis = list(title = "Maximum Temperature(C)")) 
 ```
+

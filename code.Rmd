@@ -2,7 +2,7 @@
 title: "Code"
 ---
 
-```{r setup, include=FALSE}
+```{r setup}
 library(flexdashboard)
 library(tidyverse)
 library(viridis)
@@ -10,8 +10,8 @@ library(p8105.datasets)
 library(plotly)
 ```
 
-
-```{r, tidy_data}
+### Data cleaning
+```{r}
 data(ny_noaa) 
 
 set.seed(1)
@@ -24,9 +24,6 @@ ny_noaa_clean = ny_noaa %>%
   sample_n(10000)
 ```
 
-Column {data-width=500}
------------------------------------------------------------------------
-
 ### The distribution of precipitation (0<prcp<100mm) through months
 ```{r}
 ny_noaa_clean %>%
@@ -36,7 +33,6 @@ ny_noaa_clean %>%
   layout(xaxis = list(title = "Month"),
          yaxis = list(title = "Precipitation(mm)"))
 ```
-
 
 ### The mean minimum and maximum temperature through years
 ```{r}
@@ -56,11 +52,7 @@ maxmin_ggplot = ny_noaa_clean %>%
   labs(x = "Year", y = "Temperature")
 
 ggplotly(maxmin_ggplot)
-  
 ```
-
-Column {data-width=500}
------------------------------------------------------------------------
 
 ### The minimum and maximum temperature through months
 ```{r}
