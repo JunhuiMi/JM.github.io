@@ -5,6 +5,12 @@ navbar:
   right:
     - text: "Resume"
       href: resume.html
+    - text: "Plot"
+      menu:
+      - text: "Dashboard"
+        href: dashboard.html
+      - text: "Code"
+        href: code.html
     - icon: fa-envelope fa-lg
       href: mailto:<jm4998@cumc.columbia.edu>
     - icon: fa-github fa-lg

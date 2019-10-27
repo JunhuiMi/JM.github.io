@@ -16,10 +16,12 @@ This is me in Thailand!
   
 If you would like to learn more about me, have a look at my resume [here](resume.html)
   
-### About My School
-  
 This is the logo of my school. I enjoy studying here a lot!
 
 ![](mailman.jpg)
   
 Here is a [link](https://www.mailman.columbia.edu) of my school.
+
+### About this website
+
+In my website, there is a homepage and a [flexdashboard](dashboard.html) containing three plots of [NY NOAA data](https://p8105.com/dataset_noaa.html).
